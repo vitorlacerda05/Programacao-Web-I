@@ -1,0 +1,46 @@
+CDN
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+**************************** Success ****************************************
+
+
+// Show a plain alert
+				
+					
+					echo "<script> 
+							swal({
+								
+							title: 'Dados Gravados com Sucesso!',
+							text: '',
+							icon: 'success',
+							button: 'OK',
+							}).then(function() {
+							window.location = 'Form_BD.php';
+							});
+			
+						</script>";
+			
+
+
+
+
+*************************** ERROR ***************************************
+
+
+
+					echo "<script> 
+							swal({
+								
+							title: 'Erro ao Gravar os Dados!',
+							text: '',
+							icon: 'error',
+							button: 'OK',
+							}).then(function() {
+							window.location = 'redirectURL';
+							});
+			
+						</script>";

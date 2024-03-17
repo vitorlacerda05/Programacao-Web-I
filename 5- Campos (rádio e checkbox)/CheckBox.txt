@@ -1,0 +1,4 @@
+Opcionais:
+
+	<input type="checkbox" name="op1" value="Rodas Liga Leve"> Rodas Liga Leve
+	<input type="checkbox" name="op2" value="Ar Condicionado"> Ar Condicionado

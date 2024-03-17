@@ -1,0 +1,67 @@
+Crie uma pasta chamada exercicios_basicos no WWW
+
+
+************************************************************************************
+
+exercício1.php  (nome do arquivo)
+
+1 - Declare uma variável salário e atribua um valor a ela.
+
+
+Se o salario for menor que 500 - aumente 200,00
+Se o salario for entre 500 e 1000 - aumente 100,00
+Se o salario for entre 1000 e 2000 - aumente 60,00
+Se o salario for maior que 2000 - Não tem aumento.
+
+
+Exibir o Salário Atual, o aumento e o Salario Final.
+
+************************************************************************************
+
+exercício2.php
+
+2 - Declare quatro variáveis e atribua valores inteiros a elas de 0 a 10.
+
+	- Calcule a média das quatro.
+
+	- Se a média for menor que 5 - Retorne a mensagem: Sua nota é I
+	- Se a média for menor que 8 - Retorne a mensagem: Sua nota é B
+	- Se a média for maior que 8 - Retorne a mensagem: Sua nota é MB
+
+Exiba as 04 notas, a média e a nota do aluno.
+
+
+************************************************************************************
+
+
+exercício3.php
+
+
+3 - Declare três variáveis do tipo string: nome, cidade e estado, atribua valores a elas.
+
+
+Exiba as 03 variáveis usando apenas um echo (Utilizar <p> ou <br>).
+
+
+
+************************************************************************************
+
+exercício4.php
+
+Declare duas variáveis inteiras e efetue a soma. Caso o valor somado seja maior que 20, este deverá ser apresentando somando-se a ele mais 8; caso o valor somado seja menor ou igual a 20, este deverá ser apresentado somando-se 5.
+
+Exibir o valor dos dois números, o valor adicionado e o total.
+
+
+
+************************************************************************************
+
+
+
+
+
+
+
+
+
+

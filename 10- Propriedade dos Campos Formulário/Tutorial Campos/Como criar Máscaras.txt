@@ -1,0 +1,49 @@
+* Outros Campos:
+
+	1- Adicionar biblioteca JQuery .masked input
+		-js
+		-css
+		-imagens
+
+	2- Adicionar a Função		
+
+	3- Atriuir o 10 aos campos
+
+
+* Código para máscara:
+
+	(dentro do head)
+
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+
+	<script>
+
+	//Para aplicar a máscara, as regras são simples:
+
+	// a – Representa qualquer letra (A-Z,a-z)
+	// 9 – Representa qualquer número (0-9)
+	// * – Representa qualquer caractére alfanumérico (A-Z,a-z,0-9)
+
+
+	jQuery(function($){
+
+		$("#cpf").mask("999.999.999-99");
+		$("#telefone").mask("(99)9999-9999");
+		$("#cep").mask("99.999-999"); 
+	
+		});
+
+	</script>
+
+* Código para texto:
+	
+	<fieldset>
+    		<legend>Formulário com Máscaras</legend>
+		<form name="frm" method="post" action="action""">
+    			 <p>CPF	<input type="text" name="cpf" id="cpf"> </p>
+          	  	 <p>Tel: <input type="text" name="telefone" id="telefone"></p>
+           		 <p>Data: <input type="date" name="data"></p>
+           		 <p>CEP: <input type="text" name="cep" id="cep"></p>
+                </form>
+       </fieldset>

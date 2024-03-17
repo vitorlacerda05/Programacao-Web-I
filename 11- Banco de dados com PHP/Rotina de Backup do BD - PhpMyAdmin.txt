@@ -1,0 +1,15 @@
+Rotina para Backup
+
+1º - Clicar no nome do BD
+
+2º - Ir na aba Exportar
+
+	- opção Personalizado
+
+ 	- Marcar - Add CREATE DATABASE / USE statement
+
+3º Executar
+
+4º - Salvar Arquivo
+
+5º - Copiar da pasta Downloads para a pasta do Projeto

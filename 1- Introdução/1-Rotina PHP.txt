@@ -1,0 +1,37 @@
+06/02/2019
+
+PHP -> Linguagem de Programação para internet
+    -> Interpretada pelos navegadores (1.E, Firefox, Chrome, etc)
+    -> É utilizada em conjunto com outras linguagens (Jquery, Bootstrap, htmls, MySQL, etc)
+    -> Multiplataforma (Windows, Mac, Linux)
+    -> Gratuita
+    -> É preciso de apenas um servidor WEB e a linguagem PHP (WAMP)
+
+WAMP:
+	1- Ligar o WAMP
+
+	2- Abrir o navegador e acessar o servidor WEB
+		endereço: Localhost <- IP: 127.0.0.1
+
+	3- Acessar o WWW (área de trabalho) e criar / copiar a pasta do projeto
+
+	4- Criar / copiar os arquivos com extensão .php
+
+NOME DAS PASTAS E ARQUIVOS:
+	
+	Nao usar: espaço, acentos, sinais
+	Nome dos arquivos PHP em minusculo
+
+
+NO ADOBE DREAMWEAVER
+
+	* Mudar para HTML5:
+		Ctrl+J , Title/Encoding e mudar para HTM-5
+
+	* Criar uma pasta (ex: Aula 1) no WWW, para nao mudar o index
+
+	* Dentro dessa pasta colar o "arquivo.php"
+
+	* No local host a pasta com o site vai estar no "Your Projects"
+	
+	* Index tem esse nome porque é aberto automaticamente ao abrir o site

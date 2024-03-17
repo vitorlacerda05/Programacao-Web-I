@@ -1,0 +1,6 @@
+1- Numero de campos: formulario  x  tabela  x  bindValue
+                     (7 campos)   (8 campos)   (8- ID=null)
+
+2- Ordem dos campos: insert x tabela
+
+3- sintaxe e escrita: virgula, ; , nome do campo 

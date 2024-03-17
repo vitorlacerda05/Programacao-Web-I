@@ -1,0 +1,10 @@
+Já tivemos as tabelas:
+	Text
+	Select
+
+Campó Rádio:
+
+- marcar apenas uma opção
+- o campo name deve ser igual (conjunto)
+- o campo value será o valor do campo (Aparecerá no exibir)
+

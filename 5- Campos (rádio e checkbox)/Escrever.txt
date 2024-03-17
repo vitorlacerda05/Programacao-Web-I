@@ -1,0 +1,2 @@
+	<form name="frm" method="post" action"">
+    	<p>Nome: <input type="text" name="nome"></p>

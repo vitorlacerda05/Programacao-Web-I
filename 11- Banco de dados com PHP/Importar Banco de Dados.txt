@@ -1,0 +1,11 @@
+Importar Banco de Dados
+
+- Acessar o phpMyAdmin
+
+- Acessar aba Importar
+
+- Acessar o botão Browse
+
+	- Selecionar o arquivo .sql
+
+- Clicar em Executar

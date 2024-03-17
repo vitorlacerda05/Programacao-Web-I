@@ -1,0 +1,50 @@
+13/02/2019
+
+* Operadores:
+	
+	+, -, *, /
+	
+	>, <, >=, <=
+
+	= (atribuição)
+
+	== (igualdade)
+
+	<>, != (diferente)
+
+
+* Lógicos:
+	
+	* and (e, todos verdadeiros)
+
+	* or (ou, pelo menos um verdadeiro)
+
+* Condição:
+
+	*IF:
+	    
+	   if (___ and ___) {
+		comando
+	   } else {
+	        comando
+	   }
+
+
+* Variável:
+
+	* Numérica:
+	   
+ 	   $A=10; (variavel A recebe 10)
+	   $B=5;
+
+	* String:
+
+	   $nome = 'josé'; (utiliza aspas)
+
+* Exibir variáveis: 
+
+	* echo "O valor de A é: $a <br>";
+
+	* echo "<p> numericas: $a e $b </p>";
+
+	* echo "variavel nome é: ".$nome."<br>";

@@ -1,0 +1,44 @@
+Tipos de campo:
+
+* USUARIO ESCREVER:
+	-NO HTML:
+		<form name="frm" method="post" action"">
+    		<p>Nome: <input type="text" name="nome"></p>
+    		</form>
+
+	-NO PHP:
+		$nome = $_REQUEST["nome"];
+
+* RADIO:
+	-NO HTML:
+		<input type="radio" name="sexo" value="masculino">Masculino<br>
+     		<input type="radio" name="sexo" value="masculino">Feminino<br>
+
+	-NO PHP:	
+		$sexo = $_REQUEST["sexo"];
+
+* CHECKBOX:
+	-NO HTLM:
+		<input type="checkbox" name="op1" value="Fies"> Fies<br>
+    		<input type="checkbox" name="op2" value="Bolsa"> Bolsa<br>
+    		<input type="checkbox" name="op3" value="Prouni"> Prouni<br>
+
+	-NO PHP:
+		$op1 = (!empty($_REQUEST["op1"])) ? $_REQUEST["op1"] : '';
+		$op2 = (!empty($_REQUEST["op2"])) ? $_REQUEST["op2"] : '';
+		$op3 = (!empty($_REQUEST["op3"])) ? $_REQUEST["op3"] : '';
+
+
+* Para exibir todos os campos no echo:
+	echo "<p> O nome é: $nome </p>";
+	echo "<p> O sexo é: $sexo </p>";
+	echo "<p> O curso é: $curso </p>";
+
+* Botão de voltar para a página (PHP): 
+
+	<p><form name="form" sethod="post" action="index">
+	<input type="submit" name="btnVoltar" value="voltar"></p>
+
+* Botão para registrar o formulário (HTML):
+	
+	<p> <input type="submit" name="btnRegistrar Pedido" value="Registrar Pedido"></p>

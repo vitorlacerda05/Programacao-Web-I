@@ -1,0 +1,32 @@
+08/02/2019
+
+Como abrir código PHP:
+
+	<?php : tag inicio do PHP
+
+	?> : tag fim PHP (podem ser na mesma linha, ou em linhas diferentes)
+
+Comentários:
+
+	// : adiciona comentário de UMA LINHA (não precisa fechar)
+
+	/* : adiciona comentário de UMA ou MAIS LINHAS (precisa fechar com */ )
+
+Códigos:
+
+	echo " " : imprime algo na tela para o usuário
+
+	(No echo, as aspas duplas, são utilizadas nas principais, na que abre e fecha o comentário,
+ 	 e no seu meio, se for imprimir algo a mais, utiliza-se as aspas simples)
+
+	<br> : pula linha
+
+	<b> : negrito
+
+	<h1> até <h6> : letra para título
+
+	<p> : parágrafo
+
+	<p align="right> </p> : parágrafo para direita
+
+	<div align="center"> </div> : centro
